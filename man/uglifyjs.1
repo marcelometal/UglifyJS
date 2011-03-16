@@ -31,7 +31,7 @@
 uglifyjs \- a JavaScript parser/compressor/beautifier
 
 .SH SYNOPSIS
-.B uglifyjs [options]
+.B uglifyjs [options] [input_file]
 
 .SH DESCRIPTION
 This package implements a general-purpose JavaScript
@@ -44,7 +44,7 @@ parser/compressor/beautifier toolkit.
 .br
 
 .TP
-.B \-i, \-\-indent
+.B \-i \fInumber-of-spaces\fR, \-\-indent \fInumber-of-spaces\fR
 .br
 
 .TP
@@ -76,7 +76,7 @@ parser/compressor/beautifier toolkit.
 .br
 
 .TP
-.B \-o, \-\-output
+.B \-o \fIfilename\fR, \-\-output \fIfilename\fR
 .br
 
 .TP
@@ -96,11 +96,11 @@ parser/compressor/beautifier toolkit.
 .br
 
 .TP
-.B \-\-max\-line\-len
+.B \-\-max\-line\-len \fIvalue\fR
 .br
 
 .TP
-.B \-\-reserved\-names
+.B \-\-reserved\-names \fIname1\fR, \fI$name2\fR, \fIname3\fR
 .br
 
 .TP
